@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap');
+$primary-color:#FB407C;
+$secondary-color:#EA004B;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+
+}header{
+    p{
+        padding-top:5px;
+        font-size:0.8rem;
+        background-color:#D2FFEB;
+        text-align: center;
+        height:25px;
+    }
+}
+nav{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    h2{
+        color: $primary-color;
+        font-family: 'Poppins', sans-serif;
+    }
+    a{
+        color: $secondary-color;
+        font-size: 1.5rem;
+        border-left: 1px solid gray;
+        padding:10px;
+    }
+}.menu{
+    margin-top:20px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  
+
+
+}.card{
+    display:flex;
+    width: 100%;
+    align-items: center;
+
+}.card-info{
+
+    height: 100%;
+    width: 100%;
+    .price{
+        font-weight: 700;
+    }
+    .description{
+       
+        font-size:0.8rem;
+    }
+    button{
+        position:relative;
+        bottom:0px;
+        float:right;
+        cursor: pointer;
+        background-color:$secondary-color;
+        border: none;
+        border-radius: 5px;
+        padding:7px 10px;
+        color: white;
+   
+
+}
+}.card-items{
+    align-items: center;
+}.select-menu{
+    
+    .select-cat{
+        display:flex;
+        height:55px;
+        background-color:#fff;
+        padding:20px;
+        font-size: 18px;
+        font-weight: 400;
+        border-radius: 8px;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+}.select-menu.active{
+    .options{
+        display:block;
+    }
+}
+
+.select-menu{
+    .options{
+        position:relative;
+        padding: 20px;
+        background-color: #fff;
+        margin-top:10px;
+        border-radius:8px;
+        display:none;
+    }
+}
+.options {
+    .option{
+        display:flex;
+        height:55px;
+        cursor: pointer;
+        padding: 0  16px;
+        border-radius:8px;
+        align-items: center;
+        background:#fff;
+
+        .option-text{
+            font-size:18px;
+        }
+    }
+    .option:hover{
+        background-color:#F2F2F2;
+    }
+}
+    

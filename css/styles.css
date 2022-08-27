@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+header p {
+  padding-top: 5px;
+  font-size: 0.8rem;
+  background-color: #D2FFEB;
+  text-align: center;
+  height: 25px;
+}
+
+nav {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav h2 {
+  color: #FB407C;
+  font-family: "Poppins", sans-serif;
+}
+nav a {
+  color: #EA004B;
+  font-size: 1.5rem;
+  border-left: 1px solid gray;
+  padding: 10px;
+}
+
+.menu {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.card-info {
+  height: 100%;
+  width: 100%;
+}
+.card-info .price {
+  font-weight: 700;
+}
+.card-info .description {
+  font-size: 0.8rem;
+}
+.card-info button {
+  position: relative;
+  bottom: 0px;
+  float: right;
+  cursor: pointer;
+  background-color: #EA004B;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 10px;
+  color: white;
+}
+
+.card-items {
+  align-items: center;
+}
+
+.select-menu .select-cat {
+  display: flex;
+  height: 55px;
+  background-color: #fff;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.select-menu.active .options {
+  display: block;
+}
+
+.select-menu .options {
+  position: relative;
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 10px;
+  border-radius: 8px;
+  display: none;
+}
+
+.options .option {
+  display: flex;
+  height: 55px;
+  cursor: pointer;
+  padding: 0 16px;
+  border-radius: 8px;
+  align-items: center;
+  background: #fff;
+}
+.options .option .option-text {
+  font-size: 18px;
+}
+.options .option:hover {
+  background-color: #F2F2F2;
+}
+
+/*# sourceMappingURL=styles.css.map */
