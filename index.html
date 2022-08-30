@@ -7,7 +7,9 @@
     <!-- Font awesome cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Qr-menu</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+     <title>Qr-menu</title>
 </head>
 <body>
    <div class="container">
@@ -18,7 +20,35 @@
         </nav>
         <p>Sepete eklediğiniz ürünleri garsona gösteriniz.</p>
        </header>
-        
+
+       <banner>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              
+              <img src="images/1.jpg" style="width:100%">
+              
+            </div>
+            
+            <div class="mySlides fade">
+             
+              <img src="images/2.jpg" style="width:100%">
+             
+            </div>
+            
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+            </div>
+       </banner>
+       
     
     <section class="menu">
         <h3>Menüler</h3>
@@ -50,6 +80,7 @@
 </div>
     
    </div>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
    <script src="js/data.js"></script>
    <script src="js/script.js"></script>
 </body>
